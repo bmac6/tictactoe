@@ -11,22 +11,26 @@
 }
 
 .row > div {
+  
   float: left;
   height: 100px;
   width: 100px;
 }
 
 .bottom {
-  border-top: 1px solid black;
+  border-top: 1px solid darkgreen;
+ 
 }
 
 .top {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid darkgreen;
+
 }
 
 .center {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  border-left: 1px solid darkgreen;
+  border-right: 1px solid darkgreen;
+  
 }
 
 .top:hover,
@@ -34,3 +38,6 @@
 .bottom:hover {
   cursor: pointer;
 }
+
+
+
